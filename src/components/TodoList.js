@@ -9,8 +9,6 @@ class TodoList extends Component {
 
     const { todos, onTodoClick } = this.props;
 
-    console.log("children:", this.props.children);
-
     return (
       <ol>
         {
